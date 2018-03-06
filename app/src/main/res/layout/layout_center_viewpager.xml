@@ -1,9 +1,10 @@
+<!-- merge tag para evitar redundancias y mejorar el rendimiento de UI -->
 <merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent">
-
+    <!-- Relative Layout para mostrar elementos en posición relativa -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+        <!-- Elemento de libreria design -->
        <android.support.v4.view.ViewPager
            android:layout_width="match_parent"
            android:layout_height="match_parent"
