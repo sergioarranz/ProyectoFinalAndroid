@@ -1,18 +1,21 @@
 <!-- merge tag para evitar redundancias y mejorar el rendimiento de UI -->
-<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent">
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
 <!-- Relative Layout para mostrar elementos en posición relativa -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true">
-        <!-- Elemento de libreria design -->
-        <android.support.design.widget.BottomNavigationView
+        <!-- Elemento libreria externa animaciones específicas -->
+        <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/bottomNavViewBar"
-            android:background="@drawable/white_grey_border_top">
+            android:background="@drawable/white_grey_border_top"
+            app:menu="@menu/bottom_nav_menu">
 
-        </android.support.design.widget.BottomNavigationView>
+        </com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx>
 
     </RelativeLayout>
 </merge>

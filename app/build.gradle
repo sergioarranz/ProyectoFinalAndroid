@@ -28,5 +28,7 @@ dependencies {
 
     // Libreria de diseño para Coordinator Layout y Toolbars
     compile "com.android.support:design:26.1.0"
+    // Libreria para personalizar menú navegación inferior
+    compile 'com.github.ittianyu:BottomNavigationViewEx:1.2.4'
 
 }
