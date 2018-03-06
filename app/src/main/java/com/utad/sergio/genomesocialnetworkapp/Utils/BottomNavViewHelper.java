@@ -7,13 +7,13 @@ import android.support.design.widget.BottomNavigationView;
 import android.util.Log;
 import android.view.MenuItem;
 
-import com.utad.sergio.genomesocialnetworkapp.LikesActivity;
-import com.utad.sergio.genomesocialnetworkapp.MainActivity;
-import com.utad.sergio.genomesocialnetworkapp.ProfileActivity;
+import com.utad.sergio.genomesocialnetworkapp.Likes.LikesActivity;
+import com.utad.sergio.genomesocialnetworkapp.Home.MainActivity;
+import com.utad.sergio.genomesocialnetworkapp.Profile.ProfileActivity;
 import com.utad.sergio.genomesocialnetworkapp.R;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
-import com.utad.sergio.genomesocialnetworkapp.SearchActivity;
-import com.utad.sergio.genomesocialnetworkapp.ShareActivity;
+import com.utad.sergio.genomesocialnetworkapp.Search.SearchActivity;
+import com.utad.sergio.genomesocialnetworkapp.Share.ShareActivity;
 
 /**
  * Created by sergio on 6/3/18.
@@ -35,23 +35,23 @@ public class BottomNavViewHelper {
         view.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
+                Intent intent, intent2, intent3, intent4;
                 switch (item.getItemId()){
 
                     case R.id.ic_house:
-                        Intent intent = new Intent(context, MainActivity.class); //ACTVITY_NUM = 0
+                        intent = new Intent(context, MainActivity.class); //ACTVITY_NUM = 0
                         context.startActivity(intent);
                         break;
                     case R.id.ic_search:
-                        Intent intent2 = new Intent(context, SearchActivity.class); //ACTVITY_NUM = 1
+                        intent2 = new Intent(context, SearchActivity.class); //ACTVITY_NUM = 1
                         context.startActivity(intent2);
                         break;
                     case R.id.ic_circle:
-                        Intent intent3 = new Intent(context, ShareActivity.class); //ACTVITY_NUM = 2
+                        intent3 = new Intent(context, ShareActivity.class); //ACTVITY_NUM = 2
                         context.startActivity(intent3);
                         break;
                     case R.id.ic_alert:
-                        Intent intent4 = new Intent(context, LikesActivity.class); //ACTVITY_NUM = 3
+                        intent4 = new Intent(context, LikesActivity.class); //ACTVITY_NUM = 3
                         context.startActivity(intent4);
                         break;
                     case R.id.ic_android:

@@ -1,4 +1,4 @@
-package com.utad.sergio.genomesocialnetworkapp;
+package com.utad.sergio.genomesocialnetworkapp.Home;
 
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+import com.utad.sergio.genomesocialnetworkapp.R;
 import com.utad.sergio.genomesocialnetworkapp.Utils.BottomNavViewHelper;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.utad.sergio.genomesocialnetworkapp;
+package com.utad.sergio.genomesocialnetworkapp.Share;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,22 +9,23 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+import com.utad.sergio.genomesocialnetworkapp.R;
 import com.utad.sergio.genomesocialnetworkapp.Utils.BottomNavViewHelper;
 
 /**
  * Created by sergio on 6/3/18.
  */
 
-public class ProfileActivity extends AppCompatActivity{
+public class ShareActivity extends AppCompatActivity{
 
     BottomNavigationViewEx bottomNavView;
     BottomNavViewHelper navViewHelper;
     Menu menu;
     MenuItem menuItem;
 
-    private Context mContext = ProfileActivity.this;
-    private static final int ACTIVITY_NUM = 4;
-    private static final String TAG = "ProfileActivity";
+    private Context mContext = ShareActivity.this;
+    private static final int ACTIVITY_NUM = 2;
+    private static final String TAG = "ShareActivity";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
