@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Genome Social Network App</string>
     <string name="top_profilebar_name">sergioarranz96</string>
+    <string name="top_profile_posts">Posts</string>
+    <string name="top_profile_followers">Seguidores</string>
+    <string name="top_profile_likes">Likes</string>
+    <string name="top_profile_posts_value">45</string>
+    <string name="top_profile_followers_value">340</string>
+    <string name="top_profile_likes_value">890</string>
+    <string name="top_profile_edit">Editar perfil</string>
+    <string name="top_profile_name">Sergio Arranz</string>
+    <string name="top_profile_desc">Estudiante 2º DAMP</string>
+    <string name="top_profile_url">https://github.io/sergioarranz</string>
 </resources>
